@@ -1,5 +1,5 @@
 import express from 'express';
-import {fetch,create,update, deleteuser, findById} from '../controller/userController.js';
+import {fetch,create,update, deleteuser,findById} from '../controller/userController.js';
 const router = express.Router();
 router.get('/fetch', fetch);
 router.post('/create', create);
