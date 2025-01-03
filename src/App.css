@@ -1,0 +1,426 @@
+h1 {
+  color: red;
+  background: yellow;
+  padding: 10px;
+  text-align: center;
+  border-color: burlywood;
+  background-clip: border-box;
+}
+#root
+{
+#root {
+  text-align: center;
+  max-width: fit-content;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 0 auto;
+  background-clip: border-box;
+  animation: backgroundAnimation 15s linear infinite;
+}
+  background-image: url('https://clipart-library.com/img1/1133422.png');
+}
+
+body::before {
+  content: "NISANTH_G";
+  font-size: 10em;
+  color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(45deg) rotateY(0deg) rotateZ(45deg);
+  z-index: -1;
+  pointer-events: none;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+h1 {
+  animation: backgroundAnimation 10s linear infinite;
+}
+button {
+  background-color: #FF5733; /* Orange */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #C70039; /* Darker Red */
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #900C3F; /* Burgundy */
+  border-radius: 10px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: backgroundAnimation 10s infinite;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #581845; /* Purple */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #DAF7A6; /* Light Green */
+  border-radius: 4px;
+  background-color: #e6ffeb; /* Light Peach */
+  color: #2C3E50; /* Dark Blue - Text Color */
+}
+
+.form-group input::placeholder {
+  color: #95A5A6; /* Grey color for placeholder text */
+}
+
+.form-group input:focus {
+  color: #1ABC9C; /* Change text color to Teal while typing */
+  outline: none; /* Removes the default focus outline */
+  border-color: #16A085; /* Highlight border color on focus */
+}
+
+.form-submit {
+  padding: 10px 15px;
+  background-color: #33B5E5; /* Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #007BB5; /* Darker Blue */
+}
+.horizontal-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between rows */
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.horizontal-form fieldset {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-form legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-row label {
+    min-width: 150px; /* Adjust label width as needed */
+    text-align: right;
+}
+
+.form-row input,
+.form-row textarea,
+.form-row select {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #45a049;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.form-container {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    border-radius: 10px;
+.form-container {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: backgroundAnimation 10s infinite;
+}
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.form-group input[type="radio"] + label,
+.form-group input[type="checkbox"] + label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.form-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-submit:hover {
+  background-color: #45a049;
+}
+@keyframes backgroundAnimation {
+  0% { background-color: #ff9a9e; }
+  25% { background-color: #fad0c4; }
+  50% { background-color: #fad0c4; }
+  75% { background-color: #ff9a9e; }
+  100% { background-color: #ff9a9e; }
+}
+
+.form-container {
+  animation: backgroundAnimation 10s infinite;
+}
+.unordered-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.ordered-list ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.definition-list dl {
+  margin: 0;
+}
+
+.definition-list dt {
+  font-weight: bold;
+}
+
+.definition-list dd {
+  margin-left: 20px;
+}
+.list-3d {
+  perspective: 1000px;
+}
+
+.list-3d ul {
+  list-style-type: none;
+.list-3d ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  transform-style: preserve-3d;
+  animation: rotateList 10s infinite linear;
+  perspective: 1000px;
+}
+  margin: 10px 0;
+  padding: 10px;
+  background: #ff7e5f;
+  color: white;
+  border-radius: 5px;
+  transform: rotateX(45deg);
+}
+
+@keyframes rotateList {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+.list-3d ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; /* Center the list */
+  transform-style: preserve-3d;
+  animation: rotateList 10s infinite linear;
+  perspective: 1000px;
+  display: inline-block; /* Ensure the list is inline-block */
+  text-align: left; /* Align text to the left */
+}
+.section {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Main container for centering */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(90deg, #f5d5a2, #d7a875); /* Gradient background */
+  font-family: Arial, sans-serif;
+}
+
+/* Counter Section Styling */
+.counter-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.counter-section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.counter-section button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.counter-section button:hover {
+  background-color: #333;
+}
+
+/* Input Section Styling */
+.input-section {
+  text-align: center;
+}
+
+.input-section input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-section p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 10px;
+}
+.list-container {
+  position: relative;
+  z-index: 1; /* Make sure the container is above the gradient overlay */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.stomach-container {
+  text-align: center;
+  background: url('background-image.jpg') no-repeat center center fixed; /* Replace with your background image */
+  background-size: cover;
+  padding: 20px;
+  height: 100vh;
+  color: white; /* Default color for other text */
+}
+
+.change-color-button {
+  background-color: #ff5733; /* Button color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.change-color-button:hover {
+  background-color: #c0392b; /* Darker on hover */
+}
