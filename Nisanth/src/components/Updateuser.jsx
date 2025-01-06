@@ -9,7 +9,7 @@ const Updateuser = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/user/fetch/${id}`)
+      .get(`https://backendhost-npt5.onrender.com/api/user/fetch/${id}`)
       .then((response) => {
         setUser(response.data.user);
       })
@@ -26,7 +26,7 @@ const Updateuser = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:3000/api/user/update/${id}`, user)
+      .put(`https://backendhost-npt5.onrender.com/api/user/update/${id}`, user)
       .then(() => {
         navigate("/");
       })

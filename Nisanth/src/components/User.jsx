@@ -8,7 +8,7 @@ const User = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/user/fetch")
+      .get("https://backendhost-npt5.onrender.com/api/user/fetch")
       .then((data) => {
         setUser(data.data.users);
       })
@@ -19,7 +19,7 @@ const User = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete(`http://localhost:3000/api/user/delete/${id}`)
+      .delete(`https://backendhost-npt5.onrender.com/api/user/delete/${id}`)
       .then(() => {
         setUser(user.filter((user) => user._id !== id));
       })
@@ -65,7 +65,7 @@ const User = () => {
       >
         <thead
           style={{
-            backgroundColor: "#4caf50", // Green header
+            backgroundColor: "#4caf50", 
             color: "white",
           }}
         >
